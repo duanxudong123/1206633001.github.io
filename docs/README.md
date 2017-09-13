@@ -1,50 +1,27 @@
-# Jekyll Theme MDUI
+# 文档 Document
 
-> A Jekyll theme based on mdui
+> 欢迎使用 hexo-theme-one!
 
-!> The following content using Google Translate, please use with caution!
+这里是文档喵，使用前请<b>大声朗读！</b>
 
-## What is it
+* 本主题重写了hexo的诸多功能，但hexo文档仍具有一定参考性
 
-Jekyll Theme MDUI is a Jekyll theme based on MDUI.
+* 文章 = Post
 
-We do not rely on any plugins that GitHub Pages does not support. You can be the perfect hosting in Github Pages.
+* 页面 = Page
 
-MDUI is an excellent front-end framework designed with Material Design.
+* 本主题所有markdown均支持html
 
-## Features
+## 目录
 
-* Use `Gemfile` for easy installation / upgrade
-* Compatible with Github Pages
-* Always use the latest version of Jekyll
-* Responsive layout
-* Disqus support
-* multi-language
-    * zh-cn
-    * en
-* Local search
-* Google Analytics
-* Multiple independent pages
-    * Tag Cloud
-    * Links
-    * Category list
-* Pure liquid compression html
-* PWA
-* AJAX
-* Quickly insert prompts
-* Quickly share
-* Online editor
-* More author
-* Quadratic element quadratic element
+[安装](./setup.md)
 
-## Who is in use
+[基本设置](./setting.md)
 
-[KeJun](https://blog.kejun.me/) - 二次元智障
+[文章 Front-matter](./Post-Front-matter.md)
 
-[m0dulo](https://exodus.m0dulo.xyz/) - 隐宅
+[页面 Front-matter](./Page-Front-matter.md)
 
-[BOYANG YAN'S](http://yanboyang.com/)
+[颜色](./color.md)
 
-[gledos的博客](http://gledos.science) - 没有什么值钱的东西 
-
-You can create a new pull request to add your blog here.
+[高级设置](./expert.md)

@@ -1,97 +1,41 @@
-![](/jekylltheme.jpg)
+# hexo-theme-one
 
-# Jekyll Theme MDUI
+[![Author](https://img.shields.io/badge/author-EYHN-blue.svg?style=flat-square)](https://delusion.coding.me)
+[![QQ](https://img.shields.io/badge/QQ-1106996185-blue.svg?style=flat-square)](http://wpa.qq.com/msgrd?v=3&uin=&site=qq&menu=yes)
+[![Email](https://img.shields.io/badge/Emali%20me-cneyhn@gmail.com-green.svg?style=flat-square)]()
 
-> A Jekyll theme based on mdui
+[文档](./docs/README.md)
 
-## Contents
+使用 React 制作的 material design 风格的 hexo 主题。
 
-* [General](#general)
-* [Demo](#demo)
-* [Quick start](#quick-start)
-* [Docs](#docs)
-* [TODO](#todo)
-* [Note](#note)
-* [Contributing](#contributing)
-* [Development](#development)
-* [License](#license)
+> 本项目并不适合用来学习react，其中包含程序设计问题和反模式是本人学习用作品。
 
-## General
+DEMO: https://huaji8.top/
 
-[![Version](https://img.shields.io/badge/version-0.5.2-green.svg?style=flat-square)]()
-[![Jekyll](https://img.shields.io/badge/Jekyll-3.5+-green.svg?style=flat-square)](https://jekyllrb.com/)
-[![Gem](https://img.shields.io/gem/dt/jekyll-theme-mdui.svg?style=flat-square)](https://rubygems.org/gems/jekyll-theme-mdui/)
+如果喜欢的话 请点个star 让我看到你们的支持
 
-[![Code Climate](https://img.shields.io/codeclimate/github/KeJunMao/jekyll-theme-mdui.svg?style=flat-square)](https://codeclimate.com/github/KeJunMao/jekyll-theme-mdui/)
-[![Build Status](https://img.shields.io/travis/KeJunMao/jekyll-theme-mdui.svg?style=flat-square)](https://travis-ci.org/KeJunMao/jekyll-theme-mdui)
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square)](http://commitizen.github.io/cz-cli/)
+> 流畅 简约 优雅 ~~易用~~
 
-[![Author](https://img.shields.io/badge/author-KeJun-blue.svg?style=flat-square)](https://blog.kejun.space)
+### 开发中功能表：
 
-## Demo
+| 名称          |           进展         |      详情       |
+|:------------- |:--------------:| -------------------:|
+| ~~移动版首页~~ | ~~已完成~~ |  | 
+| 中文搜索 | 开发中 | 需要后端生成关键字 或 改为正则匹配 | 
+| 404 Page | 尚未开始 |  |
+| ~~Drawer~~ | ~~已完成~~ | |
+| i18n | 暂时搁置 | 已使用react intl |
+| 自动化测试 | 暂时搁置 | 大量内容需跟进 |
+| ~~文章分类~~ | ~~已完成~~ |  |
+| ~~标签分类~~ | ~~已完成~~ |  |
+| ~~多说评论~~ | ~~已完成~~ |  |
+| ~~Disqus~~ | ~~已完成~~ | |
+| ~~分享~~ | ~~有替代方案~~ ||
+| 全局颜色 | 开发中 | 部分组件需补全 |
+| 载入加载动画 | 尚未开始 | 需设计 |
+| 时间搜索 | 尚未开始 | |
+| ~~page系统~~ | ~~已完成~~ | |
+| google translate | 勉强能用 | 格式会乱 issua: [#7](https://github.com/EYHN/hexo-theme-one/issues/7) |
+| ~~页脚~~ | ~~已完成~~ | |
 
-[KeJun's Blog](https://blog.kejun.me)
-
-## Quick start 
-
-[Quick start](http://mdui.kejun.space/#/quickstart)
-
-[快速开始](http://mdui.kejun.space/#/zh-cn/quickstart)
-
-## Docs
-
-[Docs](http://mdui.kejun.space/#/)(!!!Need Help!!!)
-
-[中文文档](http://mdui.kejun.space/#/zh-cn/)
-
-## TODO
-
-- [x] Category - Better style
-- [x] Tags - Better style
-- [x] Site style - More custom options
-- [x] Editor
-- [x] Posts - Last update date 
-- [x] Posts - Reading time 
-- [x] Posts - Code highlighting 
-- [x] Meng -  Immersive status bar from image
-- [x] Comment - Add More
-- [ ] Analytics - Add More
-- [ ] Fix many bugs
-
-## Note
-
-File Required or Optional:
-
-|files|Required or Optional|Description|
-|---  |---                 |---        |
-|mainifest.json|Optional   |Is the only file that every WebExtension must contain.See [here](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/manifest.json).|
-|sw.js|Optional            |Service Workers.See [here](https://developers.google.com/web/fundamentals/getting-started/primers/service-workers).|
-|search.json|Optional|If you use the search page, it is required.|
-|tags.json|Optional|If you use the tags page, it is required.|
-|_data/friends.yml|Optional|If you use the friends page, it is required.|
-|_data/sns.yml|Optional|It is footer sns,if you want used, it is required.|
-|_data/meng.yml|Optional|It is Meng option,if you want used, it is required.|
-|_data/site.yml|Required|It is theme config.|
-|_data/lang.yml|Required|It is language config.|
-|_data/menus.yml|Required|It is site menus config.|
-
-How to use? See Docs.
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/KeJunMao/jekyll-theme-mdui. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
-## Development
-
-To set up your environment to develop this theme, run `bundle install`.
-
-Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
-
-When your theme is released, only the files in `_layouts`, `_includes`, and `assets` tracked with Git will be released.
-
-## License
-
-[![license](https://img.shields.io/github/license/KeJunMao/jekyll-theme-mdui.svg?style=flat-square)](https://github.com/KeJunMao/jekyll-theme-mdui/blob/master/LICENSE.txt)
-
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
+该主页深受 [hexo-theme-material](https://github.com/viosey/hexo-theme-material) 和 [hexo-theme-indigo](https://github.com/yscoder/hexo-theme-indigo) 的影响,感谢这2个主题的开发者们
