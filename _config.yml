@@ -1,24 +1,24 @@
 # Basic
-title: 潘柏信
-subtitle: 个人站
-description: 欢迎来到我的个人站~
+title: 薛思晨
+subtitle: 个人博客
+description: 欢迎来到我的个人博客~
 # 头像里面的标题
-avatarTitle: leopardpan
+avatarTitle: IT、Acg、PHP、C、Golang
 # 头像里面的描述
-avatarDesc: iOS / 机器学习
-url: "http://baixin.io"
+avatarDesc: 计算机编程 / ACG爱好者
+url: "http://www.xsc888.cn"
 
 # Comment
 comment:
-    disqus: leopard
-    # uyan: 2143225  # 有言id,登录有言官网申请
+    disqus: Xsc
+    uyan: 2144559  # 有言id,登录有言官网申请
 
 # Social
 social:
-    weibo: 5366874726 
-    github: leopardpan
+    weibo: xscgroup 
+    github: 1206633001
     # twitter: 
-    mail: leopardpan@icloud.com
+    mail: admin@moetv.cc
 
 # 百度统计 
 # 使用博客模板请去掉或者更换 id 
