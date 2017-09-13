@@ -1,23 +1,24 @@
-# Site settings
-title: HyG
-email: gaohaoyang126@126.com
-description: 浩阳的博客 前端爱好者
-# > # this means to ignore newlines until "baseurl:"
-#   Write an awesome description for your new site here. You can edit this
-#   line in _config.yml. It will appear in your document head meta (for
-#   Google search results) and in your feed.xml site description.
+title: "Jekyll-Theme-MDUI"
+description: "A Jekyll theme based on MDUI"
+url: 
+baseurl: ""
+author: "KeJun"
+paginate: 5
+paginate_path: "/blog/page:num/"
 
-# baseurl: "" # the subpath of your site, e.g. /blog/
-# url: "http://yourdomain.com" # the base hostname & protocol for your site
-# twitter_username: jekyllrb
-github_username:  Gaohaoyang
-permalink: /:year/:month/:day/:title/
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-feed
 
-# Build settings
-markdown: kramdown
-
-# highlight
-# 本地用rouge, github上用pygments
-# highlighter: pygments
-# highlighter: rouge
-# highlighter: false
+exclude:
+  - package.json
+  - node_modules
+  - gulpfile.js
+  - Gemfile
+  - Gemfile.lock
+  - jekyll-theme-mdui.gemspec
+  - LICENSE.txt
+  - README.md
+  - vendor
+  - docs
